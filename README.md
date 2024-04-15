@@ -60,9 +60,9 @@ cd <workspace>/
 A local map is published under the topic /local_map and query scan is given input for the node. Upon reaching the pose of interest the odom logger is triggered and the odometry estimated by the KISS-ICP algorithm is captured.
 [Click here to watch the video](https://github.com/siddharthumakarthikeyan/KISS-ICP/blob/main/Task_3.webm)
 
-The code is designed to easily change the deisred point of interest during streaming.
+The code is designed to easily change the deisred point of interest.
 
-To capture a specific point 3D scan data
+To capture a specific point 3D scan data  during streaming.
 ```bash
 ros2 topic pub /target_reached std_msgs/msg/Int32 "data: 1"
 ```
