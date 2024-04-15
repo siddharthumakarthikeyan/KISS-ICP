@@ -5,7 +5,7 @@ KISS-ICP (Keep It Simple, Stupid - Iterative Closest Point) is a robotics projec
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-* You have a `Linux` machine with ROS installed.
+* You have a `Linux` machine with ROS2 Humble installed.
 * You have installed `git`.
 
 ## Dataset
