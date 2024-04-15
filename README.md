@@ -45,10 +45,20 @@ cd <workspace>/
 ./task_2.sh
 ```
 A local map is generated and published under the topic /local_map and upon reaching the pose of interest the map saver is triggered and the map is been saved in the maps subfolder.
+[Click here to watch the video](https://github.com/siddharthumakarthikeyan/KISS-ICP/blob/main/Task_2.webm)
 
 ## Task 3
 ```bash
 cd <workspace>/
 ./task_3.sh
 ```
-A local map is published under the topic /local_map and query scan is given input for the node. Upon reaching the pose of interest the odom logger is triggered and the odometry estimated by the KISS-ICP algorithm is captured. The code is designed to easily change the deisred point of interest.
+A local map is published under the topic /local_map and query scan is given input for the node. Upon reaching the pose of interest the odom logger is triggered and the odometry estimated by the KISS-ICP algorithm is captured.
+[Click here to watch the video](https://github.com/siddharthumakarthikeyan/KISS-ICP/blob/main/Task_3.webm)
+
+The code is designed to easily change the deisred point of interest.
+
+To capture a specific point 3D scan data
+```bash
+ros2 topic pub /target_reached std_msgs/msg/Int32 "data: 1"
+```
+
