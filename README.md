@@ -1,6 +1,6 @@
 # KISS-ICP
 
-KISS-ICP (Keep It Simple, Stupid - Iterative Closest Point) is a robotics project focusing on odometry estimation using the ICP algorithm. This project captures local maps at poses of interest and uses these maps along with a query scan to estimate odometry.
+KISS-ICP is a LiDAR Odometry pipeline that just works on most of the cases without tunning any parameter. This project captures local maps at poses of interest and uses these maps along with a query scan to estimate odometry.
 
 ## Prerequisites
 
