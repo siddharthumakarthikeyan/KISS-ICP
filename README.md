@@ -31,6 +31,11 @@ colcon build
 source install/setup.bash
 ```
 ## Task 1
+Add path to the dataset directory in task_1.py file in the following lines:
+        base_dir = ""
+        date = ""
+        drive = ""
+
 ```bash
 cd <workspace>/
 ./task_1.sh
