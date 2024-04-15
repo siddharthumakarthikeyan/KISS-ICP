@@ -36,6 +36,8 @@ cd <workspace>/
 ./task_1.sh
 ```
 You can open RVIZ2 to visualize the 3D Point Cloud data getting streamed under the topic /raw_point.
+[Click here to watch the video](https://github.com/siddharthumakarthikeyan/KISS-ICP/blob/main/Task_1.webm)
+
 
 ## Task 2
 ```bash
