@@ -9,8 +9,13 @@ Before you begin, ensure you have met the following requirements:
 * You have installed `git`.
 
 ## Dataset
+Download the kitti dataset form : https://www.cvlibs.net/datasets/kitti/eval_odometry.php
 
 ## Cloning KISS-ICP
+```bash
+cd <workspace>/
+git clone https://github.com/PRBonn/kiss-icp
+```
 
 ## Installation
 Install pykitti
