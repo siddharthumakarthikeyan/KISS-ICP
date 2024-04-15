@@ -5,7 +5,7 @@ KISS-ICP is a LiDAR Odometry pipeline that just works on most of the cases witho
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-* You have a `Linux` machine with ROS2 Humble installed.
+* You have a `Linux 22.04` machine with `ROS2 Humble` installed.
 * You have installed `git`.
 
 ## Dataset
